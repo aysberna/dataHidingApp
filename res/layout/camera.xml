@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <LinearLayout 
+   android:orientation="horizontal"
+   android:layout_height="wrap_content"
+   android:layout_width="match_parent" >
+
+    <Button
+        android:id="@+id/capture"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="140dp"
+       android:text="CEK!"
+        android:onClick="onClick" />
+
+  </LinearLayout>
+  <ImageView 
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content" 
+      android:visibility="visible"
+      android:id="@+id/imageView1" />
+  <Button 
+         
+        android:id="@+id/gizle"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="HIDE MESSAGE" />
+
+</LinearLayout>

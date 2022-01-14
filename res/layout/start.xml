@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    
+<LinearLayout
+        android:id="@+id/ust"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+ 
+         <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+     
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:background="@drawable/tou"
+        
+             />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:src="@drawable/tubitak"
+            android:layout_marginLeft="150dp" />
+   </LinearLayout>
+ </LinearLayout>
+
+<LinearLayout
+       android:layout_below="@+id/ust"
+      android:id="@+id/baslik"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+         <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+  <TextView
+      android:id="@+id/textView1"
+  
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="120dp"
+      android:text="VERI GIZLEME"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:textSize="40sp" />
+</LinearLayout>
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:layout_below="@+id/baslik"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/secenek">
+ 
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+ 
+  
+ 
+            <ImageButton
+                android:layout_gravity="center"
+            
+                android:id="@+id/captureCamera"
+                android:background="@drawable/camera"
+                android:layout_width="83dp"
+            android:layout_height="83dp" />
+ 
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="KAMERA"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+            
+ 
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            >
+ 
+            <ImageButton
+                android:layout_gravity="center"
+            
+                android:id="@+id/choosePicture"
+                android:background="@drawable/galeri" 
+                android:layout_width="83dp"
+            android:layout_height="83dp"/>
+ 
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="GALERI"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+
+ 
+ 
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+ 
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_width="83dp"
+            android:layout_height="83dp"
+                android:id="@+id/openPicture"
+               android:background="@drawable/open" />
+ 
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="RESIM AC"
+                android:id="@+id/ac" />
+        </LinearLayout>
+  </LinearLayout>
+      
+    <LinearLayout
+       android:layout_below="@+id/secenek"
+      android:id="@+id/cikis"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+         <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <ImageButton
+
+        android:id="@+id/exit"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+ 		android:layout_marginLeft="120dp"
+      android:layout_marginTop="420dp"
+        android:background="@drawable/exit"
+
+        android:onClick="onClick" />
+             
+             
+             
+   </LinearLayout>
+  </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">ProjectDataHiding</string>
+    <string name="btnIntend">Resim Cek</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">Veri Gizleme</string>
+	<string name="metni_giriniz">Metni girin:</string>
+    <string name="asciikod">asciiKod:</string>
+    <string name="binarykod">BinaryKod:</string>
+
+    
+
+</resources>

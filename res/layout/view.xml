@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="METIN GIZLENDI!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/share1"
+      	android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/share"
+        android:onClick="onClick"
+      />
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAYLAS!"
+          android:textSize="12dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+
+    <ImageButton
+        android:id="@+id/exit1"
+      android:layout_width="60dp"
+            android:layout_height="60dp"
+         android:background="@drawable/tamam"
+        android:onClick="onClick"
+    
+         />
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMAM!"
+        android:textSize="12dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+
+</LinearLayout>

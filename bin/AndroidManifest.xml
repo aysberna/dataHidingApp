@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectdatahiding"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Camera"
+            android:label="@string/app_name" >           
+        </activity>
+          <activity
+            android:name=".ChoosePicture"
+            android:label="@string/app_name" >           
+        </activity>
+        <activity
+            android:name=".Ascii"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".Ascii2"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".ImageProcess"
+            android:label="@string/app_name" >           
+        </activity>
+        <activity
+            android:name=".ImageProcess2"
+            android:label="@string/app_name" >           
+        </activity>
+        
+         <activity
+            android:name=".View1"
+            android:label="@string/app_name" >   
+                 
+        </activity>
+         <activity
+            android:name=".View2"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".Open"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".OpenMessage"
+            android:label="@string/app_name" >           
+        </activity>
+          <activity
+            android:name=".ViewMessage"
+            android:label="@string/app_name" >           
+        </activity>
+          <activity
+            android:name=".Question"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".Question2"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".ChooseFile"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".ChooseFile2"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".FImageProcess"
+            android:label="@string/app_name" >           
+        </activity>
+         <activity
+            android:name=".FImageProcess2"
+            android:label="@string/app_name" >           
+        </activity>
+        <activity
+            android:name=".FView"
+            android:label="@string/app_name" >           
+        </activity>
+        <activity
+            android:name=".FView2"
+            android:label="@string/app_name" >           
+        </activity>
+    </application>
+    
+  
+    
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
